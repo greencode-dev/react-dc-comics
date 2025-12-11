@@ -32,4 +32,4 @@ Per oggi, la priorità è la struttura. Una volta solida, si potranno sostituire
 
 Ecco uno screenshot di come potrebbe apparire il risultato finale:
 
-![Screenshot del progetto](./dc-comics-screenshot.png)
+![Screenshot del progetto](./dc-comics-empty-layout.png)
