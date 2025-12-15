@@ -1,0 +1,9 @@
+/**************************MAIN CSS******************************/
+main {
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}

@@ -1,0 +1,32 @@
+/**************************HEADER CSS******************************/
+header {
+  background-color: white;
+  display: flex;
+}
+
+header #logo {
+  height: 4em;
+  margin: 0.5rem 5rem 0.5rem 5rem;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header nav a:hover {
+  color: darkblue;
+}

@@ -1,6 +1,8 @@
+import Style from '../Header.module.css';
+
 function Header() {
   return (
-    <header>
+    <header className={Style.header}>
       <img id="logo" src="/img/dc-logo.png" alt="DC Logo" />
 
       <nav>
