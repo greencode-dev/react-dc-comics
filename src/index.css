@@ -1,12 +1,12 @@
 /**************************GENERIC CSS******************************/
-*{
-  margin: 0
-  padding: 0
-  box-sizing: border-box
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif
+  font-family: 'Comic Sans MS', cursive, sans-serif;
   min-height: 100vh;
   background-color: black;
   color: white;

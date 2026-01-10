@@ -1,10 +1,86 @@
-/**************************FOOTER CSS******************************/
-footer {
-  background-color: white;
-  color: black
-  text-align: center;
+.footerTop {
+  background-image: url('/img/footer-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem 0;
+  color: white;
+  background-position: center;
+}
+
+.footerTop .container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  background-image: url('/img/dc-logo-bg.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.linksContainer {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.linksContainer h3 {
+  margin-bottom: 1rem;
+}
+
+.shopTitle {
+  margin-top: 1rem;
+}
+
+.linksContainer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.linksContainer a {
+  color: #959595;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.linksContainer a:hover {
+  color: white;
+}
+
+.footerBottom {
+  background-color: #303030;
+  padding: 2rem 0;
+}
+
+.footerBottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.signUpButton {
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  color: white;
   padding: 1rem;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.social h3 {
+  color: #0282f9;
+}
+
+.social ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 1rem;
 }
